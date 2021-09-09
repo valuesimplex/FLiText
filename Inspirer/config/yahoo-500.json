@@ -1,0 +1,36 @@
+{
+    "seed": 42,
+    "lr": 2e-5,
+    "warmup": 0.1,
+    "do_lower_case": true,
+    "mode": "train_eval",
+    "uda_mode": true,
+
+    "total_steps": 100,
+    "max_seq_length": 256,
+    "train_batch_size": 8,
+    "eval_batch_size": 16,
+
+    "unsup_ratio": 3,
+    "uda_coeff": 1,
+    "tsa": "linear_schedule",
+    "uda_softmax_temp": -1,
+    "uda_confidence_thresh": -1,
+
+    "data_parallel": true,
+    "need_prepro": false,
+    "sup_data_dir": "Inspirer/data/yahoo/sup_500.txt",
+    "unsup_data_dir": "Inspirer/data/yahoo/unsup_70000.txt",
+    "eval_data_dir": "Inspirer/data/yahoo/test_5000.txt",
+
+    "model_file":null,
+    "pretrain_file": "uncased_L-12_H-768_A-12/bert_model.ckpt",
+    "vocab":"uncased_L-12_H-768_A-12/vocab.txt",
+    "task": "yahoo",
+
+    "save_steps": 100,
+    "check_steps": 250,
+    "results_dir": "Inspirer/results/yahoo",
+
+    "is_position": false
+}
