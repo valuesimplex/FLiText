@@ -1,0 +1,10 @@
+{
+    "mode": "eval",
+    "eval_batch_size": 1,
+    "do_lower_case": true,
+    "data_parallel": false,
+    "need_prepro": false,
+    "student_model_file": "results/yahoo/save/model.pt",
+    "eval_data_dir": "data/yahoo/test_str",
+    "vocab":"../uncased_L-12_H-768_A-12/vocab.txt"
+}

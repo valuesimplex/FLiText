@@ -1,0 +1,37 @@
+{
+    "seed": 42,
+    "lr": 2e-5,
+    "warmup": 0.1,
+    "do_lower_case": true,
+    "mode": "train_eval",
+    "uda_mode": true,
+
+    "epochs": 10,
+    "sup_batch_size": 8,
+    "unsup_batch_size": 32,
+    "eval_batch_size": 64,
+
+    "data_parallel": true,
+    "need_prepro": false,
+    "sup_data_dir": "Target/data/yahoo/sup_500",
+    "unsup_data_dir": "Target/data/yahoo/unsup_70000",
+    "eval_data_dir": "Target/data/yahoo/test_5000",
+
+    "student_model_file":null,
+    "model_file":"Inspirer/results/yahoo/save/model_500_sup.pt",
+    "pretrain_file": null,
+    "vocab":"uncased_L-12_H-768_A-12/vocab.txt",
+
+    "save_steps": 100,
+    "check_steps": 250,
+    "results_dir": "Target/results/yahoo/",
+
+    "is_position": false,
+
+    "feature_distill": true,
+    "add_consistency": true,
+    "log_name": "FLiText",
+    "cnn_kernel_size": [2, 3, 4, 5],
+    "transformer_layers": [5, 7, 9, 11],
+    "distill_type": "hard"
+}
