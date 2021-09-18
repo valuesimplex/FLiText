@@ -16,7 +16,7 @@ Compared with the fully supervised method, using less than 10% of labeled data, 
 - keras-bert==0.84.0
 
 ### Download the BERT and GLOVE
-Please download the BERT and unzip it to current dir. You can find [BERT](https://github.com/google-research/bert) and [GLOVE](https://drive.google.com/file/d/1avbyGPuuVRs5XLm5aQcQBtm7Em1pkyAW/view?usp=sharing)
+Please download the BERT and unzip it to current dir. You can find [BERT](https://github.com/google-research/bert) and [GLOVE]()
 
 ### Download the data and process
 First, Download the dataset and put them in "data" folder. You can find [IMDb](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews), [Yelp-5](https://www.kaggle.com/yelp-dataset/yelp-dataset), [Yahoo! Answer](https://github.com/LC-John/Yahoo-Answers-Topic-Classification-Dataset).
