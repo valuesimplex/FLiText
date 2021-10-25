@@ -1,6 +1,6 @@
 # FLiText:  A Faster and Lighter Semi-Supervised Text Classification with Convolution Networks
 ## Overview
-FLiText is a semi-supervised distillation method which achieves state-of-the-art results on a wide variety of language.
+[FLiText](https://arxiv.org/abs/2110.11869) is a semi-supervised distillation method which achieves state-of-the-art results on a wide variety of language.
 
 Compared with SOTA semi-supervised learning methods, FLiText improves the accuracy on ligthweight model TextCNN from 50.00% to 90.49% on IMDb and from 39.8% to 58.06% on Yelp-5 and from 55.3% to 65.08% on Yahoo! Answer.
 
